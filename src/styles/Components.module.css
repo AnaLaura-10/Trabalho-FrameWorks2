@@ -1,0 +1,77 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #7d79289c;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  color: white;
+}
+
+.cabecalho p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.cabecalho p:hover {
+  color: rgb(112, 111, 111);
+  transition: color 0.3s ease;
+}
+
+.cabecalho h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7d79289c;
+  color: #fff;  
+  padding: 10px;
+  width: 100%;
+  height: 70px;
+}
+
+.rodape p {
+  font-size: 18px;
+  margin: 10px 20px 0px 20px;
+}
+
+.entrar {
+  text-decoration: none;
+  color: #fff;
+  background-color: #7d79289c;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.entrar:hover {
+  background-color: #555;
+}
+
+.entrar>div {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.entrar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entrar p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
